@@ -1,7 +1,6 @@
-# blockcdn
-blockcdn
+# BlockCdn
 
-0.pre install
+## 0.pre install
 
 sudo apt-get install automake
 
@@ -11,7 +10,7 @@ git clone https://github.com/forsunchao/blockcdn.git
 
 cd blockcdn
 
-1.install go
+## 1.install go
 
 wget https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz
 
@@ -27,7 +26,7 @@ source ~/.bashrc
 
 go version
 
-2.install libevent
+## 2.install libevent
 
 unzip libevent-release-2.1.8-stable.zip
 
@@ -43,7 +42,7 @@ sudo make install
 
 ls -al /usr/lib | grep libevent
 
-3.install protobuf
+## 3.install protobuf
 
 sudo apt-get install autoconf automake libtool curl make g++ unzip
 
@@ -67,7 +66,7 @@ sudo ldconfig # refresh shared library cache
 
 protoc --version
 
-4.install M_BerryMiner_ubuntu_v1_0
+## 4.install M_BerryMiner_ubuntu_v1_0
 
 tar -zxvf M_BerryMiner_ubuntu_v1_0.tar.gz
 
