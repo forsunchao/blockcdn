@@ -39,7 +39,7 @@ sudo ldconfig # refresh shared library cache
 protoc --version
 
 4.install M_BerryMiner_ubuntu_v1_0
-wget https://github.com/forsunchao/blockcdn/blob/master/M_BerryMiner_ubuntu_v1_0.tar.gz
+wget https://github.com/forsunchao/blockcdn/blob/master/M_BerryMiner_ubuntu_v1_0.tar
 tar -xvf M_BerryMiner_ubuntu_v1_0.tar.gz 
 
 
