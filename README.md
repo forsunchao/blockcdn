@@ -15,8 +15,8 @@ source ~/.bashrc
 go version
 
 2.install libevent
-wget https://github.com/libevent/libevent/releases/download/release-2.1.8-stable/libevent-2.1.8-stable.tar.gz
-tar -zxvf libevent-release-2.1.8-stable
+wget https://github.com/forsunchao/blockcdn/blob/master/libevent-release-2.1.8-stable.zip
+unzip libevent-release-2.1.8-stable.zip
 cd libevent-release-2.1.8-stable
 ./autogen.sh
 ./configure --prefix=/usr
@@ -27,10 +27,9 @@ ls -al /usr/lib | grep libevent
 3.install protobuf
 sudo apt-get install autoconf automake libtool curl make g++ unzip
 sudo apt-get install libssl-dev
-wget https://github.com/google/protobuf/archive/master.zip
-mv master.zip protobuf.zip
-unzip protobuf.zip
-cd protobuf
+wget https://github.com/forsunchao/blockcdn/blob/master/protobuf-master.zip
+unzip protobuf-master.zip
+cd protobuf-master
 ./autogen.sh
 ./configure
 make
@@ -40,7 +39,8 @@ sudo ldconfig # refresh shared library cache
 protoc --version
 
 4.install M_BerryMiner_ubuntu_v1_0
-wget 
+wget https://github.com/forsunchao/blockcdn/blob/master/M_BerryMiner_ubuntu_v1_0.tar.gz
+tar -xvf M_BerryMiner_ubuntu_v1_0.tar.gz 
 
 
 
